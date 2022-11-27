@@ -28,7 +28,7 @@ function App() {
       <h1 className="some" style={{ textAlign: 'center' }} >hello some</h1>
 
 
-      <div className="score-table" style={{ display: 'flex' }}>
+      <div className="score-table" style={{ display: 'flex', justifyContent:'center' }}>
         <FlipCounter />
         <FlipCounter />
 
