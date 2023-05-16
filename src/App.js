@@ -25,10 +25,10 @@ function App() {
   }
   return (
     <div className="App">
-      <h1 className="some" style={{ textAlign: 'center' }} >hello some</h1>
+      <h1 className="some" style={{ textAlign: 'center' }} >Volley Table</h1>
 
 
-      <div className="score-table" style={{ display: 'flex', justifyContent:'center' }}>
+      <div className="score-table" style={{ display: 'flex', justifyContent:'center', margin: '30px auto' }}>
         <FlipCounter />
         <FlipCounter />
 

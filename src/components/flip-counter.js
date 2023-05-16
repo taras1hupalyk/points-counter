@@ -17,7 +17,7 @@ class FlipCounter extends React.Component {
     this.setState(
       {
         oldNum: this.state.newNum,
-        newNum: this.state.oldNum + 2, // tak nado hahahaha
+        newNum: this.state.oldNum + 2, 
         change: !this.state.change
       }
     );
@@ -28,7 +28,7 @@ class FlipCounter extends React.Component {
     this.setState(
       {
         oldNum: -1,
-        newNum: 0, // tak nado hahahaha
+        newNum: 0, 
         change: true
       }
     );
@@ -56,7 +56,7 @@ class FlipCounter extends React.Component {
           <span>{number2}</span>
         </div>
 
-        <button onClick={() => { this.clear() }}>clear</button>
+        <button style={{margin:'10px auto'}} onClick={() => { this.clear() }}>clear</button>
       </div>
 
     );
